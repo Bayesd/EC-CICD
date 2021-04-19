@@ -10,4 +10,4 @@ app = Flask(__name__)
 def home():
     return "<h1>Hello World!</h1><p>Detta är staging-</p>"
 
-app.run(debug=True)
+app.run()
