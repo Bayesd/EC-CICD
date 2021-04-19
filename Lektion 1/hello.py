@@ -8,6 +8,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Hello World!</h1><p>Detta är staging-</p>"
+    return "<h1>Hello World!</h1><p>Detta är Development-</p>"
 
 app.run()
